@@ -1,0 +1,31 @@
+.image {
+  max-width: 100%;
+  height: auto;
+}
+body {
+  background-color: gray;
+
+}
+.container {
+  background-color: white;
+  max-width: 700px;
+  padding: 20px;
+  margin: 0 auto;
+
+}
+@media (min-width: 500px){
+  .left-column {
+    width: 75%;
+    float: left;
+    overflow: auto;
+    box-sizing: border-box;
+    background-color: white;
+  }
+  .right-column {
+    width: 25%;
+    float: right;
+    overflow: auto;
+    box-sizing: border-box;
+    background-color: white;
+  }
+}
